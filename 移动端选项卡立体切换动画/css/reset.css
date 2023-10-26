@@ -1,0 +1,107 @@
+/* 初始化样式表 */
+body,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+br,
+hr,
+table,
+tr,
+td,
+dl,
+dt,
+dd,
+form {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media(max-width:669px) {
+	/*当屏幕小雨669时，执行下面css*/
+	html {
+		font-size: 14px;
+	}
+}
+
+body {
+	font-family: Arial, "微软雅黑";
+	font-size: 12px;
+	color: #434343;
+	letter-spacing: 0.5px;
+}
+
+input {
+	border: none;
+	outline: none;
+}
+
+/* 清除input的type属性为number时的按钮 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+select:focus,
+select:active,
+select:hover {
+	outline: none;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.clear {
+	clear: both;
+	font-size: 0px;
+}
+
+select {
+	margin: 0;
+	padding: 0;
+}
+
+input::-webkit-input-placeholder {
+	color: #000000;
+	font-size: 1rem;
+}
+
+input::-moz-input-placeholder {
+	color: #000000;
+	font-size: 1rem;
+}
+
+input::-ms-input-placeholder {
+	color: #000000;
+	font-size: 1rem;
+}
+
